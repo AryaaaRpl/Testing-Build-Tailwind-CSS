@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Tailwind CSS</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.2;
+    }
+  </style>
+</head>
+    <body class="bg-gray-900 text-white font-futuristic">
+ 
+        <video autoplay muted loop class="video-bg">
+    <source src="https://pixabay.com/videos/download/video-202587_tiny.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4 font-[Poppins]">
+    <h1 class="text-5xl md:text-7xl text-neon font-bold animate-flicker drop-shadow-[0_0_20px_#00f0ff]">
+      Welcome to CyberVerse
+    </h1>
+    <p class="mt-6 text-lg text-gray-300 max-w-xl">
+      Explore futuristic solutions for digital innovation, powered by creativity and code.
+    </p>
+    <a href="#gallery" class="mt-8 px-6 py-3 bg-neon text-white font-semibold rounded-lg shadow-[0_0_20px_#00f0ff] hover:scale-105 transition-transform hover:bg-cyan-500 hover:text-white">
+      Get Started
+    </a >
+  </section>
+
+  <section class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-10 text-center">
+        <div class="bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition">
+          <h3 class="text-xl font-bold text-neon mb-2">Realtime Interaction</h3>
+          <p class="text-gray-300">Engage with AI and automation live, with zero delay.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition">
+          <h3 class="text-xl font-bold text-neon mb-2">Smart UI</h3>
+          <p class="text-gray-300">Designed with cutting-edge UI/UX to delight users.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition">
+          <h3 class="text-xl font-bold text-neon mb-2">Secure by Design</h3>
+          <p class="text-gray-300">Built from the ground up with security at its core.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   
+  <section class="text-white body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">About CyberVerse</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">At CyberVerse, we are architects of tomorrow. Our passion lies in crafting digital experiences that merge technology, creativity, and human potential.
+        We believe the future is not something we wait for — it’s something we build.
+        From AI-powered interfaces to secure digital environments, our mission is to shape an interactive and intelligent web for all.</p>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Automation</h2>
+          <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Intelligence</h2>
+          <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Deep Learning</h2>
+          <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Decision Making</h2>
+          <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <a href="#" class="flex w-50 justify-center mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded text-lg font-[Poppins] hover:scale-120 transition delay-100 duration-300 ease-in-out">Let's Go!</a>
+    </div>
+  </section>
+   
+   
+  <section class="text-gray-600 body-font gallery">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://i.pinimg.com/736x/de/7b/e4/de7be444ec12ba707e5cc060f81e5673.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://i.pinimg.com/736x/08/80/cf/0880cfddddc445bb4dedf098f6e005fc.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://i.pinimg.com/736x/d3/98/66/d39866d430b1d7cab89111a62d1300b2.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://i.pinimg.com/736x/44/e5/62/44e562b5696a8afa044e6a6ea9f075d7.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://i.pinimg.com/736x/6b/5d/22/6b5d222c6ce0ec84986b111e41576ca5.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://i.pinimg.com/736x/5b/fb/47/5bfb47d407999c7ff73bd5e65f9921b1.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section class="py-20 bg-gray-900 font-[Poppins]">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold text-neon mb-12 drop-shadow-[0_0_15px_#00f0ff]">
+        Meet the Cyber Team
+      </h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition transform hover:scale-105">
+          <img src="https://i.pinimg.com/736x/fa/56/16/fa56169349aeea56d8c5e3f30c28deb4.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-neon shadow-[0_0_15px_#00f0ff]">
+          <h3 class="text-neon font-semibold text-xl">Han Hyo Joo</h3>
+          <p class="text-gray-400">Backend Dev</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition transform hover:scale-105">
+          <img src="https://i.pinimg.com/736x/0c/eb/fb/0cebfb5e325a2a79cf09bff8c09858c8.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-neon shadow-[0_0_15px_#00f0ff]">
+          <h3 class="text-neon font-semibold text-xl">Arya</h3>
+          <p class="text-gray-400">Lead Developt</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-[0_0_25px_#00f0ff] transition transform hover:scale-105">
+          <img src="https://i.pinimg.com/736x/4e/25/4d/4e254de174fb41f503410815ec970bdc.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-neon shadow-[0_0_15px_#00f0ff]">
+          <h3 class="text-neon font-semibold text-xl">Zane Core</h3>
+          <p class="text-gray-400">Cybersecurity Expert</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 border-t border-gray-700 text-center">
+    <p class="text-gray-400">&copy; 2025 CyberVerse. All rights reserved.</p>
+  </footer>
+</body>
+</html>
